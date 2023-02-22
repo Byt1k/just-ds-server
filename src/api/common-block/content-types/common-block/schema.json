@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "common_blocks",
+  "info": {
+    "singularName": "common-block",
+    "pluralName": "common-blocks",
+    "displayName": "CommonBlock",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
